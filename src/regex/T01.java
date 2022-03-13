@@ -9,7 +9,7 @@ public class T01 {
 	@Test
 	public void ex1() {
 		String pattern = "ab.";
-		assertFalse("aㅠ".matches(pattern));
+		assertFalse("ab".matches(pattern));
 		assertTrue("abc".matches(pattern));
 		
 		pattern = "ab\\s\\S";
